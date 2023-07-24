@@ -1143,7 +1143,6 @@ h5 {
   display: flex;
   align-items: center;
   justify-content: center;
-
   margin: 0;
   padding: 0;
   background-color: transparent;
@@ -1185,22 +1184,13 @@ h5 {
   transform: translateX(0);
 }
 
-.menu-container .menu-toggle {
-  position: absolute;
-  top: 16px;
-  right: 16px;
-  color: #fff;
-}
-
 .mobile-menu {
   margin-top: 80px;
   margin-left: 40px;
   list-style: none;
+  margin-bottom: 100%;
 }
 
-.mobile-menu .link {
-  color: var(--bg-dark-color);
-}
 .menu-title {
   font-size: 36px;
   font-weight: 700;
@@ -1209,13 +1199,39 @@ h5 {
   text-transform: capitalize;
   color: var(--bg-dark-color);
 }
+.menu-color {
+  color: var(--bg-dark-color);
+}
+
 .menu-title:not(:last-child) {
   margin-bottom: 40px;
 }
-.menu-title:hover,
-.menu-title:focus {
+.menu-color:hover,
+.menu-color:focus {
   color: var(--bg-btn-hover);
 }
 .menu-address-link {
   list-style: none;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0.72px;
+  color: var(--bg-btn-hero);
+  margin-bottom: 40px;
+}
+.menu-address-link-2 {
+  list-style: none;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.4px;
+}
+.menu-contact {
+  margin-left: 40px;
+  margin-bottom: 48px;
+}
+.menu-messenger {
+  display: flex;
+  gap: 56px;
+  margin-left: 40px;
 }
