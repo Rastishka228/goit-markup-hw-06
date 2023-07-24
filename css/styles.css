@@ -1173,7 +1173,7 @@ h5 {
   left: 0;
   width: 100vw;
   height: 100vh;
-  padding: 32px;
+
   background-color: var(--bg-color);
   z-index: 999;
 
@@ -1193,14 +1193,29 @@ h5 {
 }
 
 .mobile-menu {
-  padding: 0;
-  margin: 0;
+  margin-top: 80px;
+  margin-left: 40px;
   list-style: none;
 }
 
 .mobile-menu .link {
-  display: block;
-  padding: 10px;
-  color: #fff;
-  text-decoration: none;
+  color: var(--bg-dark-color);
+}
+.menu-title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+  color: var(--bg-dark-color);
+}
+.menu-title:not(:last-child) {
+  margin-bottom: 40px;
+}
+.menu-title:hover,
+.menu-title:focus {
+  color: var(--bg-btn-hover);
+}
+.menu-address-link {
+  list-style: none;
 }
