@@ -1209,7 +1209,7 @@ h5 {
   flex-wrap: wrap;
   gap: 40px;
   flex-direction: column;
-  margin-bottom: 284px;
+  margin-bottom: 100%;
 }
 
 .menu-title {
