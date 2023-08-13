@@ -1194,7 +1194,7 @@ h5 {
 
   background-color: var(--bg-color);
   z-index: 999;
-
+  padding: 40px 35px 40px 40px;
   transform: translateX(100%);
   transition: transform 250ms ease-in-out;
 }
@@ -1204,10 +1204,12 @@ h5 {
 }
 
 .mobile-menu {
-  margin-top: 80px;
-  margin-left: 40px;
   list-style: none;
-  margin-bottom: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  flex-direction: column;
+  margin-bottom: 284px;
 }
 
 .menu-title {
@@ -1218,25 +1220,20 @@ h5 {
   text-transform: capitalize;
   color: var(--bg-dark-color);
 }
+.color-studio {
+  color: #4d5ae5;
+}
+
 .menu-color {
   color: var(--bg-dark-color);
 }
-
-.menu-title:not(:last-child) {
-  margin-bottom: 40px;
-}
-.menu-color:hover,
-.menu-color:focus {
-  color: var(--bg-btn-hover);
-}
 .menu-address-link {
   list-style: none;
-  font-size: 36px;
+  font-size: 34px;
   font-weight: 700;
   line-height: 40px;
   letter-spacing: 0.72px;
-  color: var(--bg-btn-hero);
-  margin-bottom: 40px;
+  color: var(--bg-btn-hover);
 }
 .menu-address-link-2 {
   list-style: none;
@@ -1246,11 +1243,12 @@ h5 {
   letter-spacing: 0.4px;
 }
 .menu-contact {
-  margin-left: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
   margin-bottom: 48px;
 }
 .menu-messenger {
   display: flex;
   gap: 56px;
-  margin-left: 40px;
 }
