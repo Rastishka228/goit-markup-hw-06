@@ -199,6 +199,7 @@ body {
   font-weight: 400;
   color: var(--text-main-color);
   gap: 40px;
+  font-size: 12px;
 }
 @media only screen and (min-width: 1200px) {
   .header-address-link {
@@ -384,7 +385,7 @@ body {
   font-weight: 700;
   line-height: 40px;
   letter-spacing: 0.72px;
-
+  margin: 0 auto;
   color: var(--text-secondary-color);
 }
 @media only screen and (min-width: 768px) {
@@ -606,6 +607,7 @@ body {
 
 .footer {
   background-color: var(--bg-dark-color);
+  padding: 96px 0px;
 }
 @media only screen and (min-width: 768px) {
   .footer {
@@ -680,11 +682,11 @@ body {
 }
 
 .footer-media {
-  margin: 0px 110px 0px 110px;
+  padding: 0px 110px 0px 110px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 16px;
+
   overflow: hidden;
 }
 @media only screen and (min-width: 768px) {
@@ -1221,7 +1223,7 @@ h5 {
   flex-wrap: wrap;
   gap: 40px;
   flex-direction: column;
-  padding-bottom: 450px;
+  padding-bottom: 250px;
 }
 
 .menu-title {
